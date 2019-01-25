@@ -1,0 +1,24 @@
+.container {
+	margin-top: 30px;
+}
+.itemComp {
+	height: 350px;
+	border: 1px solid #333;
+}
+.itemComp-title {
+	background: #808080;
+	padding: 10px;
+	margin: 0;
+}
+.itemComp-list__table{
+	margin: 20px;
+}
+.itemComp-list__table,
+.itemComp-list__table p {
+	border-collapse: collapse;
+	border: 1px solid #000;
+}
+.itemComp-list__table td {
+	font-size: 18px;
+	padding: 10px 5px;
+}
