@@ -6,23 +6,23 @@ $(document).ready(function() {
 		errortAlert.hide();
 		event.preventDefault();
 		if ( form.find( 'input[name="mf_name"]' ).val() == '' ) {
-			errortAlert.text('test').show(); 
+			errortAlert.text('Enter your name').show(); 
 			return false;
 	}
 		if ( form.find( 'input[name="mf_secondname"]' ).val() == '' ) {
-			errortAlert.text('test')
+			errortAlert.text('Enter your secondname').show(); 
 			return false;
 	}
 		if ( form.find( 'input[name="mf_email"]' ).val() == '' ) {
-			errortAlert.text('test')
+			errortAlert.text('Enter your email').show(); 
 			return false;			
 	}
 		if ( form.find( 'input[name="mf_password"]' ).val() == '' ) {
-			errortAlert.text('test')
+			errortAlert.text('Enter password').show(); 
 			return false;			
 	}
 		if ( form.find( 'input[name="mf_checkbox"]' ).val() == '' ) {
-			errortAlert.text('test')
+			errortAlert.text('Agree to the contract').show(); 
 			return false;			
 	}
 
