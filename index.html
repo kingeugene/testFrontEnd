@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Test</title>
 	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<link href="node_modules/bxslider/dist/jquery.bxslider.css" rel="stylesheet">
+	<script src="node_modules/bxslider/dist/jquery.bxslider.min.js"></script>
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -18,35 +21,134 @@
 			<div class="itemComp">
 				<h3 class="itemComp-title">List Companies</h3>
 				<div class="itemComp-list">
-					<div class="itemComp-list__table">
-						<p>
-							Apple
-						</p>
-						<p>
-							Samsung
-						</p>
-						<p>
-							Lenovo
-						</p>
-						<p>
-							Nokia
-						</p>
-						<p>
-							Apple
-						</p>
-						<p>
-							Samsung
-						</p>
-						<p>
-							Lenovo
-						</p>
-						<p>
-							Nokia
-						</p>
+					<table width="89%" class="itemComp-list__table">
+						<tr>
+							<td>
+								Apple
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Samsung
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Lenovo
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Nokia
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Apple
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Samsung
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Lenovo
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Nokia
+							</td>
+						</tr>
 					</table>
 				</div>
 			</div>
 		</div>
+		<div class="col-md-6">
+			<div class="itemComp">
+				<h3 class="itemComp-title">Companies by Location</h3>
+				<div class="itemComp-main"><hr></div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="itemComp">
+				<h3 class="itemComp-title">News</h3>
+				<ul class="bxslider">
+					<li class="itemComp-news">
+						<div class="col-md-5">
+							<img src="img/img1.jpg" alt="">
+						</div>
+						<div class="col-md-7">
+							<h4 class="itemComp-news__title">Sports</h4>
+							<div class="itemComp-news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, perferendis consequatur assumenda laboriosam dignissimos maxime, labore iure doloremque, debitis placeat nobis molestias sed nemo quisquam impedit quidem sequi molestiae aliquid!</div>
+						</div>
+						<div class="col-md-12">
+							<div class="itemComp-news__author"><strong>Author:</strong> Admin</div>
+							<div class="itemComp-news__publik"><strong>Public:</strong> 30.01.2019</div>
+						</div>
+					</li>
+					<li class="itemComp-news">
+						<div class="col-md-5">
+							<img src="img/img1.jpg" alt="">
+						</div>
+						<div class="col-md-7">
+							<h4 class="itemComp-news__title">Sports</h4>
+							<div class="itemComp-news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, perferendis consequatur assumenda laboriosam dignissimos maxime, labore iure doloremque, debitis placeat nobis molestias sed nemo quisquam impedit quidem sequi molestiae aliquid!</div>
+						</div>
+						<div class="col-md-12">
+							<div class="itemComp-news__author"><strong>Author:</strong> Admin</div>
+							<div class="itemComp-news__publik"><strong>Public:</strong> 30.01.2019</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="itemComp itemComp-partners">
+				<h3 class="itemComp-title">Company partners</h3>
+				<div class="itemComp-main__wrap">
+					<div class="itemComp-listPartn">
+						<div class="itemComp-main">26562153	</div>
+						<div class="blockList">test</div>
+					</div>
+					<div class="itemComp-listPartn">
+						<div class="itemComp-main">26562153	</div>
+						<div class="blockList">test</div>
+					</div>
+					<div class="itemComp-listPartn">
+						<div class="itemComp-main">26562153	</div>
+						<div class="blockList">test</div>
+					</div>
+					<div class="itemComp-listPartn">
+						<div class="itemComp-main">26562153	</div>
+						<div class="blockList">test</div>
+					</div>
+					<div class="itemComp-listPartn">
+						<div class="itemComp-main">26562153	</div>
+						<div class="blockList">test</div>
+					</div>
+					<div class="itemComp-listPartn">
+						<div class="itemComp-main">26562153	</div>
+						<div class="blockList">test</div>
+					</div>
+					<div class="itemComp-listPartn">
+						<div class="itemComp-main">26562153	</div>
+						<div class="blockList">test</div>
+					</div>
+					<div class="itemComp-listPartn">
+						<div class="itemComp-main">26562153	</div>
+						<div class="blockList">test</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+<script>
+	jQuery(document).ready(function() {
+  		jQuery('.bxslider').bxSlider({controls: false});
+});
+</script>
 </body>
 </html>
