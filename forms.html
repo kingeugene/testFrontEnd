@@ -13,35 +13,36 @@
 		<div class="col-md-6">
 			<form class="itemForms" id="form">
 				<h3 class="itemForms-title">Sing Up</h3>
-				<div class="itemForms-wrap">
-					<div class="fields">
-						<div class="fields-icons"><img src="img/images2.svg" alt=""></div>
-						<div class="fields-input"><input type="text" name="mf_name" required placeholder="Name" /></div>
+				<div id="error" style="display: none">This is a danger alert—check it out!</div>
+					<div class="itemForms-wrap">
+						<div class="fields">
+							<div class="fields-icons"><img src="img/images2.svg" alt=""></div>
+							<div class="fields-input"><input type="text" name="mf_name" required placeholder="Name" /></div>
+						</div>
+						<div class="fields">
+							<div class="fields-icons"><img src="img/images2.svg" alt=""></div>
+							<div class="fields-input"><input type="text" name="mf_secondname" required placeholder="Secondname" /></div>
+						</div>
+						<div class="fields">
+							<div class="fields-icons"><img src="img/email.svg" alt=""></div>
+							<div class="fields-input"><input type="email" name="mf_email" required placeholder="Email" /></div>
+						</div>
+						<div class="fields">
+						<select class="gender" name="mf_list">
+							<option value="male">Male</option>
+							<option value="femele">Female</option>
+						</select>
+						</div>
+						<div class="fields">
+							<div class="fields-icons"><img src="img/lock.svg" alt=""></div>
+							<div class="fields-input"><input type="password" name="mf_password" required placeholder="Password" /></div>
+						</div>
+						<div class="fields fields__bordNone">
+							<div class="checkboxForms"><input type="checkbox" name="mf_checkbox" required checked></div>
+							<div >Conditions of Agreement</div>
+						</div>
+						<div class="submitForms"><input type="submit" class="send_btn" required value="Send"></div>
 					</div>
-					<div class="fields">
-						<div class="fields-icons"><img src="img/images2.svg" alt=""></div>
-						<div class="fields-input"><input type="text" name="mf_secondname" required placeholder="Secondname" /></div>
-					</div>
-					<div class="fields">
-						<div class="fields-icons"><img src="img/email.svg" alt=""></div>
-						<div class="fields-input"><input type="text" name="mf_email" required placeholder="Email" /></div>
-					</div>
-					<div class="fields">
-					<select class="gender" name="mf_list">
-						<option value="light">Men</option>
-						<option value="dark">Woman</option>
-					</select>
-					</div>
-					<div class="fields">
-						<div class="fields-icons"><img src="img/lock.svg" alt=""></div>
-						<div class="fields-input"><input type="text" name="mf_password" required placeholder="Email" /></div>
-					</div>
-					<div class="fields fields__bordNone">
-						<div class="checkboxForms"><input type="checkbox" name="mf_checkbox" required checked></div>
-						<div >Conditions of Agreement</div>
-					</div>
-					<div class="submitForms"><input type="submit" class="send_btn" required value="Send"></div>
-				</div>
 			</form>
 		</div>
 	</div>
