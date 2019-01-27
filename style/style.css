@@ -44,13 +44,23 @@
 	width: 100%;
 	margin: 20px 0;
 }
+@media ( max-width: 992px ) {
+	.itemComp-slider {
+		height: auto;
+	}
+}
+@media ( max-width: 468px ) {
+	.itemComp-list table {
+		width: 80%;
+	}
+}
 /*FORMS*/
 .container-center {
 	display: flex;
 	justify-content: center;
 }
 .itemForms {
-	height: 435px;
+	height: 460px;
 	border: 1px solid #333;
 	margin-top: 30px;
 }
@@ -161,4 +171,12 @@
 }
 .itemComp-listPartn {
 	position: relative;
+}
+#error {
+	display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 5px;
+    margin: 10px auto;
+    justify-content: center;
 }
